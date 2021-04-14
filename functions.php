@@ -14,7 +14,7 @@ add_action( 'rest_api_init', 'my_customize_rest_cors', 15 );
 //addallposts
 //https://qiita.com/webiscuit/items/535fa8c44c960f2c7192
 //https://notes.sharesl.net/articles/751/
-//hogehogetesttetsaaaaaaaaaa
+//hogehogetesttetsaaaaaaaaaaa
 function custom_api_get_all_posts() {
     register_rest_route( 'custom/v1', '/allposts', array(
         'methods' => 'GET',
