@@ -1,25 +1,25 @@
 # 概要
 
-Wordpress を Headless CMS 化するための基本テーマです。
+Wordpress を Headless CMS 化するためのミニマムなテーマです。
 主に view の無効化と rest api のカスタマイズを行っています。
 (※まだまだ開発途中です)
 
 # 使い方
 
-## 全ページ取得
+## ページ取得
 
 1. [http://サーバー名.com/wp-json/custom/v1/allposts]に GET request
-2. 全ページの「id,slug,title,content,category_name,time,thumbnail」が返ってくる
+2. 全投稿の「id,slug,title,content,category_name,time,thumbnail」が返ってくる
 
 # ToDO
 
 - トップページへのアクセス->disable
 - ドキュメント作成
-- and so on...!
+- などなど!
 
 # 参考リンク
 
-開発にあたり大変お世話になっている文献たちです。
+開発にあたり大変お世話になっている文献です。
 
 ## Headless 化
 
@@ -36,7 +36,7 @@ Wordpress を Headless CMS 化するための基本テーマです。
 
 [【Nuxt.js】お問い合わせフォーム実装に WordPress の Contact Form 7 で対応する](https://qiita.com/hiropy0123/items/33f3c3ffbb5879e8fe0a)
 
-## Wordpress プラグイン
+# 使用プラグイン
 
 - Classic Editor
 - Contact Form 7
