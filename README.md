@@ -8,7 +8,7 @@ Wordpress を Headless CMS 化するためのミニマムなテーマです。
 
 ## ページ取得
 
-1. [http://サーバー名.com/wp-json/custom/v1/allposts]に GET request
+1. http://サーバー名.com/wp-json/custom/v1/allposts に GET request
 2. 全投稿の「id,slug,title,content,category_name,time,thumbnail」が返ってくる
 
 # ToDO
